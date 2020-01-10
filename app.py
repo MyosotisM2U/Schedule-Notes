@@ -12,3 +12,4 @@ def hello_world():
     print('Called Hello World')
     return { "response": 'Hello, World!',
              "random": "{}".format(random.randint(0, 10)) }, 200
+print('HI htere')
